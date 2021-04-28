@@ -66,8 +66,18 @@ def one(str1, str2):
 
 	# No hints for this question
 
-def two(arg1):
-	return "null"
+def two(num):
+	if num % 15 == 0:
+		return("fizzbuzz")
+	elif num % 3 == 0:
+		return("fizz")
+	elif num % 5 == 0:
+		return("buzz")
+	else:
+		return("null")
+
+
+
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
@@ -93,7 +103,6 @@ def three(str):
 			count = count + 1
 	return(count)
 
-print(three("hEelLoooO"))
 
 	
 
